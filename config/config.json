@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-trin-suite-bar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spfxTrinSuiteBar/SpfxTrinSuiteBarApplicationCustomizer.js",
+          "manifest": "./src/extensions/spfxTrinSuiteBar/SpfxTrinSuiteBarApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxTrinSuiteBarApplicationCustomizerStrings": "lib/extensions/spfxTrinSuiteBar/loc/{locale}.js"
+  }
+}

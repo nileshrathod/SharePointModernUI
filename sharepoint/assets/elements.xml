@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SpfxTrinSuiteBar"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="a4cc6e1f-5885-476a-b7df-84e1b7af4156"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
